@@ -4,3 +4,5 @@ main.o: mystring.h main.c
 	gcc -c main.c
 mystring.o: mystring.h mystring.c
 	gcc -c mystring.c
+run:
+	./mystring
